@@ -3,6 +3,18 @@
   "use strict";
 
   /**
+   * Analytics
+   */
+
+  if (window.location.host === "shubhameec.com" || window.location.host === "www.shubhameec.com") {
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-FFFK6HYP2W');
+	}
+
+  /**
    * Easy selector helper function
    */
   const select = (el, all = false) => {
