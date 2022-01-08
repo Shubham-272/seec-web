@@ -1,2 +1,4 @@
-User-agent: *
-Disallow: /assets
+user-agent: *
+disallow: /assets/
+
+sitemap: https://www.shubhameec.com/sitemap.xml
